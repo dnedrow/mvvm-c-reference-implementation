@@ -236,3 +236,11 @@ tags
 
 # End of https://www.gitignore.io/api/vim,emacs,macos,maven,netbeans,intellij+iml,jetbrains+iml
 
+# Markdown Navigator Plugin for JetBrains' IDEs
+**/.idea/markdown-navigator/profiles_settings.xml
+**/markdown-exported-files.xml
+**/markdown-navigator.xml
+
+# Sonarlint Plugin for JetBrains' IDEs
+**/.idea/sonarlint
+

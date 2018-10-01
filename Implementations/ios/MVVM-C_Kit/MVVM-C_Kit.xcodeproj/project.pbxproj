@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B62A175105E331FCEE87920 /* Controlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62AAD4BC84278EA2B7CC03 /* Controlling.swift */; };
+		6B62A3932140799199284920 /* Observing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62A608BE400CDB97E9D12C /* Observing.swift */; };
+		6B62A4DB1977C414D1177C4F /* Configuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62A35B86DFE4FB3051D182 /* Configuring.swift */; };
+		6B62A4EA5528E8C6E28BECD7 /* Toggling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62AA312EC13FBBAB3CB5FA /* Toggling.swift */; };
+		6B62A63AF330E4B7297A1CEE /* OnOffSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62A30356FB473A391AAC95 /* OnOffSwitch.swift */; };
+		6B62A6EBDE524819E0916DB8 /* Emulating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62AFAAA6F948D4FACF1B2C /* Emulating.swift */; };
+		6B62A80DD8701BB72D0AB323 /* Informing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62A6EEA30178984FF377AA /* Informing.swift */; };
+		6B62A872B4B2ACE89A7C1FAD /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62A831AC494EDFA6C83B9A /* Coordinating.swift */; };
+		6B62ACBFC64253B3AB6C2C2A /* Deciding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62AD818BF2B62973164945 /* Deciding.swift */; };
+		6B62AD12D34E89E804FB0E4C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62ABFC80731C087573A706 /* Configuration.swift */; };
+		6B62AD79D8CF1316A8251B86 /* Managing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62AB599774A52F3A8895BC /* Managing.swift */; };
+		6B62AF5770CCB2A2BDFE77C7 /* Modeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62ACC76DA67F6D99EFF0BC /* Modeling.swift */; };
+		6B62AF728DFA55ADC4B0B36B /* Delegating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62AD6DF31F4FF8CAF799EF /* Delegating.swift */; };
 		BB7BDA8221619985005B5976 /* MVVM_C_Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7BDA7821619985005B5976 /* MVVM_C_Kit.framework */; };
 		BB7BDA8721619985005B5976 /* MVVM_C_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7BDA8621619985005B5976 /* MVVM_C_KitTests.swift */; };
 		BB7BDA8921619985005B5976 /* MVVM_C_Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = BB7BDA7B21619985005B5976 /* MVVM_C_Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B62A2744D5F9AAF047A4126 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B62A30356FB473A391AAC95 /* OnOffSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnOffSwitch.swift; sourceTree = "<group>"; };
+		6B62A35B86DFE4FB3051D182 /* Configuring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuring.swift; sourceTree = "<group>"; };
+		6B62A608BE400CDB97E9D12C /* Observing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observing.swift; sourceTree = "<group>"; };
+		6B62A6EEA30178984FF377AA /* Informing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Informing.swift; sourceTree = "<group>"; };
+		6B62A831AC494EDFA6C83B9A /* Coordinating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
+		6B62A84C5EEA498883A4260F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B62AA312EC13FBBAB3CB5FA /* Toggling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toggling.swift; sourceTree = "<group>"; };
+		6B62AAD4BC84278EA2B7CC03 /* Controlling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controlling.swift; sourceTree = "<group>"; };
+		6B62AB599774A52F3A8895BC /* Managing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Managing.swift; sourceTree = "<group>"; };
+		6B62ABFC80731C087573A706 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		6B62ACC76DA67F6D99EFF0BC /* Modeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modeling.swift; sourceTree = "<group>"; };
+		6B62AD6DF31F4FF8CAF799EF /* Delegating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegating.swift; sourceTree = "<group>"; };
+		6B62AD818BF2B62973164945 /* Deciding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deciding.swift; sourceTree = "<group>"; };
+		6B62AD91C2B91B1250FE90E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B62AFAAA6F948D4FACF1B2C /* Emulating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emulating.swift; sourceTree = "<group>"; };
+		6B62AFE86F5D7F40E73DD89E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BB7BDA7821619985005B5976 /* MVVM_C_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MVVM_C_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7BDA7B21619985005B5976 /* MVVM_C_Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVM_C_Kit.h; sourceTree = "<group>"; };
 		BB7BDA7C21619985005B5976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +80,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B62A5222B4880707208C449 /* Passive */ = {
+			isa = PBXGroup;
+			children = (
+				6B62AFE86F5D7F40E73DD89E /* README.md */,
+				6B62ABFC80731C087573A706 /* Configuration.swift */,
+			);
+			path = Passive;
+			sourceTree = "<group>";
+		};
+		6B62A8A2DE4FD6183D919DDB /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				6B62AD91C2B91B1250FE90E2 /* README.md */,
+				6B62A30356FB473A391AAC95 /* OnOffSwitch.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		6B62ABED4F8BFF819561CDE4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B62A2744D5F9AAF047A4126 /* README.md */,
+				6B62ACA8A0BA691D86549CCA /* Active */,
+				6B62A5222B4880707208C449 /* Passive */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B62ACA8A0BA691D86549CCA /* Active */ = {
+			isa = PBXGroup;
+			children = (
+				6B62A84C5EEA498883A4260F /* README.md */,
+				6B62A35B86DFE4FB3051D182 /* Configuring.swift */,
+				6B62AAD4BC84278EA2B7CC03 /* Controlling.swift */,
+				6B62A831AC494EDFA6C83B9A /* Coordinating.swift */,
+				6B62AD818BF2B62973164945 /* Deciding.swift */,
+				6B62AD6DF31F4FF8CAF799EF /* Delegating.swift */,
+				6B62AFAAA6F948D4FACF1B2C /* Emulating.swift */,
+				6B62A6EEA30178984FF377AA /* Informing.swift */,
+				6B62AB599774A52F3A8895BC /* Managing.swift */,
+				6B62ACC76DA67F6D99EFF0BC /* Modeling.swift */,
+				6B62A608BE400CDB97E9D12C /* Observing.swift */,
+				6B62AA312EC13FBBAB3CB5FA /* Toggling.swift */,
+			);
+			path = Active;
+			sourceTree = "<group>";
+		};
 		BB7BDA6E21619985005B5976 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +150,8 @@
 			children = (
 				BB7BDA7B21619985005B5976 /* MVVM_C_Kit.h */,
 				BB7BDA7C21619985005B5976 /* Info.plist */,
+				6B62A8A2DE4FD6183D919DDB /* Enumerations */,
+				6B62ABED4F8BFF819561CDE4 /* Protocols */,
 			);
 			path = "MVVM-C_Kit";
 			sourceTree = "<group>";
@@ -194,6 +273,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B62A4DB1977C414D1177C4F /* Configuring.swift in Sources */,
+				6B62A175105E331FCEE87920 /* Controlling.swift in Sources */,
+				6B62A872B4B2ACE89A7C1FAD /* Coordinating.swift in Sources */,
+				6B62ACBFC64253B3AB6C2C2A /* Deciding.swift in Sources */,
+				6B62AF728DFA55ADC4B0B36B /* Delegating.swift in Sources */,
+				6B62A6EBDE524819E0916DB8 /* Emulating.swift in Sources */,
+				6B62A80DD8701BB72D0AB323 /* Informing.swift in Sources */,
+				6B62AD79D8CF1316A8251B86 /* Managing.swift in Sources */,
+				6B62AF5770CCB2A2BDFE77C7 /* Modeling.swift in Sources */,
+				6B62A3932140799199284920 /* Observing.swift in Sources */,
+				6B62A4EA5528E8C6E28BECD7 /* Toggling.swift in Sources */,
+				6B62AD12D34E89E804FB0E4C /* Configuration.swift in Sources */,
+				6B62A63AF330E4B7297A1CEE /* OnOffSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

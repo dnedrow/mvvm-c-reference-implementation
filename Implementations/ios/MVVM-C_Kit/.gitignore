@@ -164,7 +164,6 @@ tags
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
-xcuserdata/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
@@ -194,9 +193,9 @@ DerivedData/
 # End of https://www.gitignore.io/api/vim,emacs,xcode,carthage,cocoapods,appcode+iml
 
 # Markdown Navigator Plugin for JetBrains' IDEs
-.idea/markdown-navigator/profiles_settings.xml
-markdown-exported-files.xml
-markdown-navigator.xml
+**/.idea/markdown-navigator/profiles_settings.xml
+**/markdown-exported-files.xml
+**/markdown-navigator.xml
 
 # Sonarlint Plugin for JetBrains' IDEs
 **/.idea/sonarlint
